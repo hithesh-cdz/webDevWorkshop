@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relationship prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div> <input type="text" name="" id="name" placeholder="Enter your name"><br>
+ <input type="text" name="" id="name" placeholder="Enter your crush's name"><br>
+    <button type="submit" onclick="luck()">CHECK</button><br>
+    
+</div>
+<p id="result"></p>
+
+    <script>
+        function luck(){
+        let name=document.getElementById('name');
+        let marks=Math.random()*100;
+        let result=document.getElementById('result');
+        
+        result.innerHTML="Chance of getting in a relationship:"+" "+marks+"%";
+     }
+    </script>
+</body>
+</html>

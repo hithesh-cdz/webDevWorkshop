@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result prediction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Predicting your result!!</h1>
+   <div> <input type="text" name="" id="name" placeholder="Enter your name"><br>
+    <button type="submit" onclick="luck()">CHECK</button>
+</div>
+<p id="result"></p>
+
+    <script>
+        function luck(){
+        let name=document.getElementById('name');
+        let marks=Math.random()*100;
+        let result=document.getElementById('result');
+        if(marks<35){
+                result.innerHTML="Innond sala odbahudu"
+        }
+        else if(marks==35){
+            result.innerHTML="Congrats";
+        }
+        else if(marks>35&&marks<51){
+            result.innerHTML="Not bad"
+        }
+        else if(marks>50&&marks<76){
+            result.innerHTML="Good"
+        }      
+        else if(marks>75&&marks<101){
+            result.innerHTML="Get a life"
+        }
+     }
+    </script>
+</body>
+</html>

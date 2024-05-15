@@ -1,0 +1,31 @@
+body{
+    background-image: url("https://nenow.in/wp-content/uploads/2024/04/Can-lust-and-love-coexist-in-relationship_.jpg");
+    background-size: cover;
+}
+div{
+    align-items: center;
+    padding-left:680px;
+    height: 200px;
+    margin-top: 370px;
+}
+input,button{
+    font-size: 27px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: 2px 2px 12px black;
+
+}
+button{
+    margin-left: 105px;
+    background-color: pink;
+}
+#result{
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 29px;
+    text-shadow: 2px 1px 1px black;
+    margin-left: 490px;
+    margin-top: none;
+}
